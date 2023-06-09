@@ -1,8 +1,8 @@
-# Breast Cancer Disease Prediction Project ❤
+# Breast Cancer Prediction
 
 #### If you want to view the deployed model, click on the following link:
 
-• https://breast-cancer-predi.herokuapp.com/
+•https://breast-cancer-prediction1.onrender.com
 
 ## Demo
 
@@ -90,28 +90,3 @@ Push code to Master Branch
 ```bash
   git push heroku master
 ```
-
-  
-## Related
-
-Here are some related projects
-
-
-[Liver Disease](https://github.com/SagarDhandare/Liver-Disease-Prediction-Project)
-
-[Heart Disease](https://github.com/SagarDhandare/Heart-Disease-Project)
-
-[Diabetes Disease](https://github.com/SagarDhandare/Diabetes-Disease-Project)
-
-[Stroke Prediction](https://github.com/SagarDhandare/Stroke-Prediction-Project)
-
-[Chronic Kidney Disease](https://github.com/SagarDhandare/Chronic-Kidney-Disease-Prediction-Project)
-
-  
-## Feedback
-
-If you have any feedback, please reach out to me at [LinkedIn](https://www.linkedin.com/in/sagardhandare/)
-
-Please do ⭐ the repository, if you like this 😊
-
-Thank you ❤
