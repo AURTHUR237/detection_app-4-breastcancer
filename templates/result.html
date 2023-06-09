@@ -9,7 +9,7 @@
 
 <body>
 
-    <div style="color:black;" class="container">
+    <div style="color:white;" class="container">
         <form action="{{ url_for('predict')}}" method="post">
             <h2 class='container-heading'><span class="heading_font">Breast Cancer Disease Prediction</span></h2>
 
@@ -18,11 +18,11 @@
         <!-- Result -->
 		<div style="color:black;" class="results">
 			{% if prediction==1 %}
-				<h1><span class='danger'>Oops! 🙁<br><br>You have BREAST CANCER DISEASE.<br><br>Please Consult Doctor.</span></h1>
+				<h1><span class='danger'>Sorry<br><br>You have BREAST CANCER DISEASE.<br><br>Please Consult the Doctor.</span></h1>
                 <br><br><br><br><br><br>
 				<img class="gif" src="{{ url_for('static', filename='no.gif')}}" alt="STROKE Image">
 			{% elif prediction==0 %}
-				<h1><span class='safe'>🤩 Don't Worry! 🤩<br><br>You DON'T have Breast Cancer Disease.</span></h1>
+				<h1><span class='safe'> Do not Worry! <br><br>You DO not have Breast Cancer Disease.</span></h1>
 				<img class="gif1" src="{{ url_for('static', filename='yes.gif')}}" alt="Not STROKE Image">
 			{% endif %}
 		</div>
@@ -42,7 +42,7 @@
 /* Background Image */
 body
 {
-background-image:url("https://raw.githubusercontent.com/SagarDhandare/Breast-Cancer-Disease-Prediction-Project/main/Images/Breast-Cancer1.png");
+background-image:url("https://github.com/AURTHUR237/detection_app-4-breastcancer/blob/main/Images/awareneess.jpg?raw=true");
 height: 100%;
 
 /* Center and scale the image nicely */
